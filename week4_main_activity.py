@@ -70,6 +70,14 @@ print(text[0::3])
 # "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 
 ##################################### String Methods#################################
+
+new_text =  "this is a new text text text text string"
+print(new_text.count("text"))
+# .count() methos counts the number of times a subtring appears in a string
+print(new_text.endswith("string"))
+# strind ends with a specific substring
+print(new_text.replace("text", "word"))
+# replaces words with the other word you input
 # String Methods Practice #1
 #slieds 12 -16
 # Print the following text in uppercase, using the specific string method:
